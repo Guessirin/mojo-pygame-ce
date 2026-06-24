@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Guessirin <guessirin.gt@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+name = "pygame-ce"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mojo = ">=1.0.0b3.dev2026062406,<2"
+python = ">=3.14.6,<3.15"
+
+[pypi-dependencies]
+pygame-ce = ">=2.5.7, <3"
